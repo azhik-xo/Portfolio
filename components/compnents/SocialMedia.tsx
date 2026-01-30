@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const SocialMedia = () => {
   return (
-    <div className="bg-[#101010] border-[#1C1C1C] border-2 rounded-xl | ">
-      <div className="flex justify-center p-2 flex-col gap-2 ">
+    <div className="bg-[#090909] border-[#1C1C1C] border-2 rounded-xl | max-md:p-1 ">
+      <div className="flex justify-center p-2  max-md:p-3 flex-col gap-2 ">
         <div className="flex justify-center items-center gap-2">
           <Image
             src={"/asset/purple/rocket.png"}
@@ -22,8 +22,8 @@ const SocialMedia = () => {
       </div>
 
       <div className=" flex flex-col  items-center gap-2 p-2 | max-sm:p-1">
-        <div className="flex items-center p-2 border border-[#1C1C1C] gap-2 rounded-xl bg-[#191919] w-full">
-          <div className="p-2 bg-[#282828] rounded-md">
+        <div className="flex items-center p-2 border border-[#1C1C1C] gap-2 rounded-xl max-md:rounded-md  bg-[#191919] w-full">
+          <div className="p-2 bg-[#282828] rounded-md max-md:rounded-sm">
             <Image
               src={"/asset/white/insta.png"}
               alt="plus"
@@ -42,8 +42,8 @@ const SocialMedia = () => {
           </p>
         </div>
 
-        <div className="flex items-center p-2 border border-[#1C1C1C] gap-2 rounded-xl bg-[#191919] w-full">
-          <div className="p-2 bg-[#282828] rounded-md">
+        <div className="flex items-center p-2 border border-[#1C1C1C] gap-2 rounded-xl max-md:rounded-md bg-[#191919] w-full">
+          <div className="p-2 bg-[#282828] rounded-md max-md:rounded-sm">
             <Image
               src={"/asset/white/linkedin.png"}
               alt="plus"
@@ -59,8 +59,8 @@ const SocialMedia = () => {
           </p>
         </div>
 
-        <div className="flex items-center p-2 border border-[#1C1C1C] gap-2 rounded-xl bg-[#191919] w-full">
-          <div className="p-2 bg-[#282828] rounded-md">
+        <div className="flex items-center p-2 border border-[#1C1C1C] gap-2 rounded-xl max-md:rounded-md bg-[#191919] w-full">
+          <div className="p-2 bg-[#282828] rounded-md max-md:rounded-sm">
             <Image
               src={"/asset/white/dribble.png"}
               alt="plus"
@@ -76,8 +76,8 @@ const SocialMedia = () => {
           </p>
         </div>
 
-        <div className="flex items-center p-2 border border-[#1C1C1C] gap-2 rounded-xl bg-[#191919] w-full">
-          <div className="p-2 bg-[#282828] rounded-md">
+        <div className="flex items-center p-2 border border-[#1C1C1C] gap-2 rounded-xl max-md:rounded-md bg-[#191919] w-full">
+          <div className="p-2 bg-[#282828] rounded-md max-md:rounded-sm">
             <Image
               src={"/asset/white/github.png"}
               alt="plus"

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const WorkProcess = () => {
   return (
-    <div className="bg-[#101010] border-[#1C1C1C] border-2 rounded-xl ">
+    <div className="bg-[#090909] border-[#1C1C1C] border-2 rounded-xl ">
       <div className="flex justify-center p-2 flex-col gap-2 border-2   border-b-[#1C1C1C] border-t-[#1c1c1c00] border-r-[#1c1c1c00] border-l-[#1c1c1c00] ">
         <div className="flex justify-center items-center gap-2">
           <Image

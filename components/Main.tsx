@@ -1,20 +1,20 @@
-import TechStack from "./utilities/TechStack";
-import Projects from "./utilities/Projects";
-import Services from "./utilities/Services";
-import Profile from "./utilities/Profile";
-import Clients from "./utilities/Clients";
-import Experties from "./utilities/Experties";
-import Testimonials from "./utilities/Testimonials";
-import WorkProcess from "./utilities/WorkProcess";
-import Contact from "./utilities/Contact";
-import SocialMedia from "./utilities/SocialMedia";
+import TechStack from "./compnents/TechStack";
+import Projects from "./compnents/Projects";
+import Services from "./compnents/Services";
+import Profile from "./compnents/Profile";
+import Clients from "./compnents/Clients";
+import Experties from "./compnents/Experties";
+import Testimonials from "./compnents/Testimonials";
+import WorkProcess from "./compnents/WorkProcess";
+import Contact from "./compnents/Contact";
+import SocialMedia from "./compnents/SocialMedia";
 
 const Test = () => {
   return (
     // <<<<<<<<  ------------------------------------------------------------------------------------------  Main div >>>>>
     <div className="grid grid-cols-[60%_40%] m-5 gap-2 w-screen | max-sm:grid-cols-1 max-sm:grid-rows-[2fr_1fr] max-sm:m-2 | max-md:grid-cols-1 max-md:grid-rows-[50%_50%] |">
       {/* <<<<<<<< ------------------------------------------------------------------------------------------ Sub div-1>>>>> */}
-      <div className="grid gap-2 grid-cols-2 | max-sm:grid-cols-1 max-sm:h-full  | max-md:grid-cols-[48%_1fr] | max-lg:grid-cols-[48%_2fr] ">
+      <div className="grid grid-cols-2 gap-2 | max-sm:grid-cols-1 max-sm:h-full max-sm:grid-rows-[1fr_1fr] | max-md:grid-cols-[48%_1fr] | max-lg:grid-cols-[48%_2fr] ">
         {/* <<<<<<<< ------------------------------------------------------------------------- Stack - Project - Service>>>>> */}
         <div className="grid grid-cols-1 grid-row-[1fr_1fr_1fr] gap-2  | sm:order-1 | | max-lg:order-2">
           <TechStack />
@@ -22,7 +22,7 @@ const Test = () => {
           <Services />
         </div>
         {/* <<<<<<<< ---------------------------------------------------------------------------------  Profile - Client >>>>> */}
-        <div className="grid grid-cols-1 grid-rows-[15%_1fr_1fr] gap-2 | max-sm:grid-rows-[15%_1fr_35%]  sm:order-2 | max-md:grid-rows-[15%_1fr_35%] | max-lg:order-1 ">
+        <div className="grid grid-cols-1 grid-rows-[15%_1fr_1fr] gap-2 | max-sm:grid-rows-[16%_45%_35%] max-sm: sm:order-2 | max-md:grid-rows-[15%_1fr_35%] | max-lg:order-1 ">
           <Experties />
           <Profile />
           <Clients />

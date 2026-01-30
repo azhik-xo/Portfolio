@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Contact = () => {
   return (
-    <div className="bg-[#101010] border-[#1C1C1C] border-2 rounded-xl flex gap-8 flex-col p-5">
+    <div className="bg-[#090909] border-[#1C1C1C] border-2 rounded-xl flex gap-8 flex-col p-5">
       <div className=" flex flex-col items-center gap-7">
         <div className="bg-[#282828] rounded-full p-4 | max-sm:p-3 ">
           <Image

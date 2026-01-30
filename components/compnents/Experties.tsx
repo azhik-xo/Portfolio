@@ -1,4 +1,4 @@
-import CountUp from "../compnents/CountUp";
+import CountUp from "../utilities/CountUp";
 import Image from "next/image";
 
 const Experties = () => {
@@ -6,7 +6,7 @@ const Experties = () => {
     // <<<<<<<<  ------------------------------------------------------------------------------------------  Main div >>>>>
     <div className=" grid grid-cols-3 gap-2 |  ">
       {/* <<<<<<<< --------------------------------------------------------------------------------------------------  Projects >>>>> */}
-      <div className="bg-[#101010] border-[#1C1C1C] border-2 rounded-xl flex flex-col p-2 gap-2 justify-center items-center ">
+      <div className="bg-[#090909] border-[#1C1C1C] border-2 rounded-xl flex flex-col p-2 gap-2 justify-center items-center ">
         <div className="flex items-center justify-center gap-2 max-md:gap-1 ">
           <CountUp
             from={0}
@@ -32,11 +32,11 @@ const Experties = () => {
             width={14}
             className="h-3 w-2"
           />
-          <p className="text-sm max-sm:text-xs | max-md:text-xs">Projects</p>
+          <p className="text-sm font-light max-sm:text-xs | max-md:text-xs">Projects</p>
         </div>
       </div>
       {/* <<<<<<<< --------------------------------------------------------------------------------------------------  Services >>>>> */}
-      <div className="bg-[#101010] border-[#1C1C1C] border-2 rounded-xl flex flex-col p-2 gap-2 justify-center items-center">
+      <div className="bg-[#090909] border-[#1C1C1C] border-2 rounded-xl flex flex-col p-2 gap-2 justify-center items-center">
         <div className="flex items-center justify-center gap-2 ">
           <CountUp
             from={0}
@@ -61,11 +61,11 @@ const Experties = () => {
             width={14}
             className="h-3 w-3"
           />
-          <p className="text-sm max-sm:text-xs | max-md:text-xs">Service</p>
+          <p className="text-sm font-light max-sm:text-xs | max-md:text-xs">Service</p>
         </div>
       </div>
       {/* <<<<<<<< --------------------------------------------------------------------------------------------------  Year Experties >>>>> */}
-      <div className="bg-[#101010] border-[#1C1C1C] border-2 rounded-xl flex flex-col  gap-2 justify-center items-center">
+      <div className="bg-[#090909] border-[#1C1C1C] border-2 rounded-xl flex flex-col  gap-2 justify-center items-center">
         <div className="flex items-center justify-center gap-2 ">
           <CountUp
             from={0}
@@ -90,7 +90,7 @@ const Experties = () => {
             width={14}
             className="h-3 w-3"
           />
-          <p className="text-sm max-sm:text-xs | max-md:text-xs ">
+          <p className="text-sm font-light max-sm:text-xs | max-md:text-xs ">
             Year Expertise
           </p>
         </div>

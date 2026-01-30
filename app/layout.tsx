@@ -36,7 +36,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={` ${manrope.className} antialiased`}>
+      <body className={` ${manrope.className} text-[#CCCCCC] antialiased`}>
         <div className="bg-[#050505]">{children}</div>
       </body>
     </html>
