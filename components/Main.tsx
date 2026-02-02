@@ -22,14 +22,14 @@ const Test = () => {
           <Services />
         </div>
         {/* <<<<<<<< ---------------------------------------------------------------------------------  Profile - Client >>>>> */}
-        <div className="grid grid-cols-1 grid-rows-[15%_1fr_1fr] gap-2 | max-sm:grid-rows-[16%_45%_35%] max-sm: sm:order-2 | max-md:grid-rows-[15%_1fr_35%] | max-lg:order-1 ">
+        <div className="grid grid-cols-1 grid-rows-[15%_1fr_35%] gap-2 | max-sm:grid-rows-[16%_46.5%_35%] max-sm: sm:order-2 | max-md:grid-rows-[15%_1fr_35%] | max-lg:order-1 ">
           <Experties />
           <Profile />
           <Clients />
         </div>
       </div>
       {/* <<<<<<<< ------------------------------------------------------------------------------------------ Sub div-1>>>>> */}
-      <div className="grid gap-2 grid-cols-1 grid-rows-[1fr_45%_0fr] | max-sm:grid-cols-1 max-sm:grid-rows-[1fr_1fr_10%] | max-md:grid-cols-1 max-md:grid-rows-[1fr_1fr] | max-lg:grid-cols-[48%_2fr] ">
+      <div className="grid gap-2 grid-cols-1 grid-rows-[1fr_45%] | max-sm:grid-cols-1 max-sm:grid-rows-[1fr_1fr_10%] | max-md:grid-cols-1 max-md:grid-rows-[1fr_1fr] | max-lg:grid-cols-[48%_2fr] ">
         <div className=" grid grid-cols-[60%_1fr] gap-2 | max-sm:grid-cols-[56%_1fr] | |">
           <Testimonials />
           <WorkProcess />
@@ -38,7 +38,7 @@ const Test = () => {
           <SocialMedia />
           <Contact />
         </div>
-        <div className=""></div>
+        <div className="lg:hidden"></div>
       </div>
     </div>
   );

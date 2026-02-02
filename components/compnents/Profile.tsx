@@ -3,10 +3,10 @@ import TiltedCard from "../utilities/ProfileCard";
 
 const Profile = () => {
   return (
-    <div className="bg-[#090909] border-[#1C1C1C] border-2 rounded-xl grid grid-rows-[1fr_1fr_20%] gap-4 p-2">
+    <div className="bg-[#090909] border-[#1C1C1C] border-2 rounded-xl grid grid-rows-[1fr_1fr_20%] gap-4 p-4">
       {/* <<<<<<<<<<<<<<<<<<<<<<--------------------- Sub div_1---------------------->>>>>>>>>>>>>>>>>> */}
       <div className=" grid gap-3 grid-cols-[75%_25%] max-md:grid-cols-[1fr_8%] ">
-        <div className="grid grid-cols-[30%_1fr] gap-4">
+        <div className="grid grid-cols-[35%_1fr] max-md:grid-cols-[30%_1fr] gap-4">
           <div className="  ">
             <TiltedCard
               imageSrc="/asset/profile/mehh2.svg"
@@ -59,7 +59,7 @@ const Profile = () => {
       </div>
 
       {/* <<<<<<<<<<<<<<<<<<<<<<--------------------- Sub div_2---------------------->>>>>>>>>>>>>>>>>> */}
-      <div className="bg-[#101010] border-[#1C1C1C] border rounded-md p-2 gap-2 grid items-center  ">
+      <div className="bg-[#101010] border-[#1C1C1C] border rounded-md p-2  grid items-center  ">
         {/* <<<<<<<<<<<<<<<<<<<<<<--------------------- Sub sub div_1---------------------->>>>>>>>>>>>>>>>>> */}
         <div className="flex gap-3 w-fit h-fit">
           {/* <<<<<<<<<<<<<<<<<<<<<<--------------------- location ---------------------->>>>>>>>>>>>>>>>>> */}

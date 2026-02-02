@@ -2,8 +2,24 @@ import Image from "next/image";
 
 const Projects = () => {
   return (
-    <div className="bg-[#090909] border-[#1C1C1C] border-2 rounded-xl flex flex-col p-5 gap-2 ">
-      
+    <div className="bg-[#090909] border-[#1C1C1C] border-2 rounded-xl  p-2 ">
+      <div className="flex justify-center p-2  max-md:p-3 flex-col gap-2 ">
+        <div className="flex justify-center items-center gap-2">
+          <Image
+            src={"/asset/purple/works.png"}
+            alt="plus"
+            height={24}
+            width={24}
+            className="h-4 w-4"
+          />
+          <p className=" text-sm font-light text-[#999999] | max-sm:text-xs ">
+            Projects
+          </p>
+        </div>
+        <p className="flex justify-center font-semibold | max-sm:text-sm">
+          Works Gallery
+        </p>
+      </div>
     </div>
   );
 };
