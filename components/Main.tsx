@@ -16,7 +16,7 @@ const Test = () => {
       {/* <<<<<<<< ------------------------------------------------------------------------------------------ Sub div-1>>>>> */}
       <div className="grid grid-cols-2 gap-2 | max-sm:grid-cols-1 max-sm:h-full max-sm:grid-rows-[1fr_1fr] | max-md:grid-cols-[48%_1fr] | max-lg:grid-cols-[48%_2fr] ">
         {/* <<<<<<<< ------------------------------------------------------------------------- Stack - Project - Service>>>>> */}
-        <div className="grid grid-cols-1 grid-row-[1fr_1fr_1fr] gap-2  | sm:order-1 | | max-lg:order-2">
+        <div className="grid grid-cols-1 grid-rows-[1fr_1fr_1fr]  gap-2  | sm:order-1 | | max-lg:order-2">
           <TechStack />
           <Projects />
           <Services />
