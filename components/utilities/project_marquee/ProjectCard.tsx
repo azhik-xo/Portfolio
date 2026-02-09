@@ -1,23 +1,19 @@
-import Image from "next/image";
-
 type Props = {
   project: {
-    icon: string;
     name: string;
+    image: string;
   };
 };
 
 const ProjectCard = ({ project }: Props) => {
   return (
-    <div className="brand-card flex items-center gap-3 px-4 py-3  whitespace-nowrap min-w-fit">
-      <div className=" bg-[#282828] rounded-sm max-md:rounded-sm p-2 min-w-fit">
-       <img
-        src={project.icon}
+    <div className=" brand-card flex w-[260px] md:w-[300px]  overflow-hidden relative rounded-full shrink-0 ">
+      <img
+        src={project.image}
         alt={project.name}
-        className="w-3.5 h-3.5 "
+        className="w-full h-full object-cover opacity-80 select-none pointer-events-none"
+        draggable={false}
       />
-      </div>
-      <p className="text-sm font-medium">{project.name}</p>
     </div>
   );
 };
